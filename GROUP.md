@@ -14,7 +14,7 @@ SELECT COUNT(*) AS `numbers_teachers`, `office_address`
 
 FROM `teachers`
 
-group by `office_address`;
+GROUP BY `office_address`;
 ```
 ## 3. Calcolare la media dei voti di ogni appello d'esame
 ```
